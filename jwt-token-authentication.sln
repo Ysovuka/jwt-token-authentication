@@ -3,8 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{354F944E-8FD6-433B-849D-F461AB719FB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A02CFD3-E2DC-4BEE-9940-AE593D729857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{9C8BABDA-3AC8-4129-B772-58BA163D875C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C8BABDA-3AC8-4129-B772-58BA163D875C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8BABDA-3AC8-4129-B772-58BA163D875C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8BABDA-3AC8-4129-B772-58BA163D875C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8BABDA-3AC8-4129-B772-58BA163D875C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C8BABDA-3AC8-4129-B772-58BA163D875C} = {354F944E-8FD6-433B-849D-F461AB719FB8}
 	EndGlobalSection
 EndGlobal
